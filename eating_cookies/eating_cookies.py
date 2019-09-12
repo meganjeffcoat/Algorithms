@@ -19,6 +19,7 @@ import sys
 
 def eating_cookies(n, cache=None):
     # set up number of cookies at a time
+    # O(c^n) not good, keep working on other solution
     if (n == 1 or n == 0):
         return 1
     elif (n == 2):
